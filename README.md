@@ -14,6 +14,10 @@ yarn start
 ```
 starts a server on port `3000`
 
+if yarn start error
+Error: error:0308010C:digital envelope routines::unsupported
+export NODE_OPTIONS=--openssl-legacy-provider
+
 ## Build for production
 ```
 yarn build
